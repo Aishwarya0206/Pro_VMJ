@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<!--Carousel School Banner-->
+<template id="carousel" name="Carousel Testimonial">
+	<section class="carousel">
+	<div id="vmjCarousel" class="s_carousel carousel_default carousel slide" data-interval="10000">
+		<!-- Indicators -->
+		<ol class="indi carousel-indicators">
+			<li data-target="#vmjCarousel" data-slide-to="0" class="active"/>
+			<li data-target="#vmjCarousel" data-slide-to="1"/>
+			<li data-target="#vmjCarousel" data-slide-to="2"/>
+		</ol>
+		<!-- Content -->
+		<div id="inner" class="carousel-inner">
+			<!-- #01 -->
+			<div class="col-md-12 carousel-item active oe_custom_bg oe_img_bg pt200 pb200" style="background-image: url('/theme_variant/static/src/img/11.jpg');" data-name="Slide">
+				<div class="carousel-container">
+					<div class="row content">
+						<div id="content" class="carousel-content trans text-center pt48 pb40">
+							<h2 class="col-md-12">ON CAMPUS VIEW</h2>
+       	      <p class="col-md-12 pt35 pb0 lead">The first concrete expression of our school took its dimensions in 1976 spreading its wings in later years to accommodate more spreading…</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- #02 -->
+      <div class="col-md-12 carousel-item oe_custom_bg oe_img_bg pt200 pb200" style="background-image: url('/theme_variant/static/src/img/22.jpg');">
+				<div class="carousel-container">
+					<div class="row content">
+						<div id="content" class="carousel-content trans text-center pt48 pb40">
+							<h2 class="col-md-12">Educational Establish</h2>
+       	      <p class="col-md-12 pt35 pb0 lead">One of the most substantial uses in education is the use of technology. Also technology is an increasingly influential factor in…</p>
+						</div>
+					</div>
+       	</div>
+			</div>
+      <!-- #03 -->
+      <div class="col-md-12 carousel-item oe_custom_bg oe_img_bg pt200 pb200" style="background-image: url('/theme_variant/static/src/img/33.jpg');">
+      	<div class="carousel-container">
+       		<div class="row content">
+       	  	<div id="content" class="carousel-content trans text-center pt48 pb40">
+							<h2 class="col-md-12">Listen strongly, Learn quickly</h2>
+       	      <p id="para" class="col-md-12 pt35 pb0 lead">Good listening skills do not simply develop naturally – they need to be learnt and practiced. This resource uses real-life examples and…</p>
+						</div>
+         	</div>
+       	</div>
+      </div>
+     </div>
+     <!-- Controls -->
+     <div class="prev carousel-control-prev" data-target="#vmjCarousel" data-slide="prev" role="img" aria-label="Previous" title="Previous">
+         <span class="carousel-control-prev-icon"/>
+         <span class="sr-only">Previous</span>
+     </div>
+     <div class="next carousel-control-next" data-target="#vmjCarousel" data-slide="next" role="img" aria-label="Next" title="Next">
+         <span class="carousel-control-next-icon"/>
+         <span class="sr-only">Next</span>
+     </div>
+	</div>
+	</section>
+</template>
+<template id="place_into_bar1" inherit_id="website.snippets" name="Place into bar1">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.carousel"/>
+		</xpath>
+</template>
+<!-- Quote for school quotes -->
+<template id="quote" name="Quotes">
+	<section class="quote">
+		<div class="row container-fluid text-center">
+			<h3 class="head">"A Century old charitable trust synonymous with service to humanity"</h3><br/>
+			<p class="para">A Balanced Schooling</p>
+		</div>
+	</section>
+</template>
+<template id="place_into_bar2" inherit_id="website.snippets" name="Place into bar2">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.quote"/>
+		</xpath>
+</template>
+<!-- Features Vision & Mission-->
+<template id="feature" name="Features">
+    <section class="feature">
+    		<div class="container cont"  style="width: 780; height: 315;">
+            <div class="row">
+								<div class="fea text-center">
+                    <img class="cl1" src="/theme_variant/static/src/img/snippet_img/vision-mission-values.png"/>
+                    <p class="p1">" Establish continuous holistic <br/>education and harmonious <br/>inter-relationship<br/>among students, <br/>teachers and parents,<br/>imbibing high ideals "</p>
+								</div>
+                <div class="fea1 text-center">
+                    <img class="cl1" src="/theme_variant/static/src/img/snippet_img/vision-mission-values(1).png"/>
+                    <p class="p1">" Make education more<br/>relevant, effective and<br/>interesting through excellent<br/>innovative quality teaching,<br/>enriching aesthetic sense and<br/>moral values to meet the<br/>challenges of the society. "</p>
+                </div>
+                <div class="fea2 text-center">
+                    <img class="cl1" src="/theme_variant/static/src/img/snippet_img/vision-mission-values(2).png"/>
+                    <p class="p1">" Make education more<br/>relevant, effective and<br/>interesting through excellent<br/>innovative quality teaching,<br/>enriching aesthetic sense and<br/>moral values to meet the<br/>challenges of the society. "</p>
+                </div>
+            </div>
+				</div>
+				<div class="container1" style="width: 220; height: 685;">
+					
+								<div class="content">
+     							 <div><div class="my-scroll view view-mt-events view-id-mt_events view-display-id-block_2">
+											<div class="view-content">
+												<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="00Z" class="datetime">Oct 28</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/157" hreflang="en">Lakshna 2017</a>
+														</div>
+														<div class="views-field views-field-body">
+															<p><span><span>The 32<sup>nd</sup> Lakshna Inter School cultural competitions and 24<sup>th</sup></span></span></p>
+														</div>
+													</div>
+  											</div>
+    										<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="53Z" class="datetime">Oct 10</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/160" hreflang="en">Diwali</a>
+														</div>
+														<div class="views-field views-field-body">
+														</div>
+													</div>
+												</div>
+    										<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="19Z" class="datetime">Sep 21</time>
+														</div>
+														<div class="views-field views-field-title">
+																<a href="/index.php/node/165" hreflang="en">Navarathri</a>
+														</div>
+														<div class="views-field views-field-body">
+														</div>
+													</div>
+  											</div>
+    										<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="36Z" class="datetime">Aug 26</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/166" hreflang="en">Vinayagar Chathurthi</a>
+														</div>
+														<div class="views-field views-field-body">
+														</div>
+													</div>
+  											</div>
+    										<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="11Z" class="datetime">Aug 24</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/158" hreflang="en">Sports Day</a>
+														</div>
+														<div class="views-field views-field-body">
+															<p><span><span>The 42<sup>nd</sup> Annual Sports Day was conducted in the afternoon on 24/8/2017. Mr.V.Muthu Kumar B.…</span></span></p>
+														</div>
+													</div>
+  											</div>
+   											<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="12Z" class="datetime">Aug 24</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/156" hreflang="en">Fun and Frolic</a>
+														</div>
+														<div class="views-field views-field-body">
+															<p>Fun and Frolic Day was conducted in the forenoon session. Mr.K.Kannan M.M.S proprietor VKMT Bricks, Madurai and  Mrs.K.…</p>
+														</div>
+													</div>
+  											</div>
+    										<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="14Z" class="datetime">Aug 15</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/161" hreflang="en">Independence Day</a>
+														</div>
+														<div class="views-field views-field-body">
+														</div>
+													</div>
+  											</div>
+    										<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="10Z" class="datetime">Aug 14</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/163" hreflang="en">Krishna Jeyanthi</a>
+														</div>
+														<div class="views-field views-field-body">
+														</div>
+													</div>
+  											</div>
+    										<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="14Z" class="datetime">Jul 29</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/162" hreflang="en">International Tiger's Day</a>
+														</div>
+														<div class="views-field views-field-body">
+														</div>
+													</div>
+  											</div>
+    										<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="13Z" class="datetime">Jun 21</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/159" hreflang="en">Yoga Day</a>
+														</div>
+														<div class="views-field views-field-body">
+														</div>
+													</div>
+ 											 	</div>
+    										<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="38Z" class="datetime">Jun 12</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/164" hreflang="en">LKG-First Day - 2017</a>
+														</div>
+														<div class="views-field views-field-body">
+														</div>
+													</div>
+  											</div>
+    									</div>
+  					          <div class="more-link"><a href="/index.php/events">View all</a></div>
+      								</div>
+										</div>
+    							</div>
+				</div>
+		</section>
+</template>
+<template id="place_into_bar3" inherit_id="website.snippets" name="Place into bar3">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.feature"/>
+		</xpath>
+</template>
+<template id="foot" name="Footer">
+	<section class="footer">
+		<div class="container" style="width: 555; height: 169;">
+			<h2 class="title">Description</h2>
+				<div class="desp">
+					<p>Virudhunagar T.S.M. Manickam Nadar–Janaki Ammal Higher Secondary School is situated in the heart of the city, on the New Ramnad Road, on a sprawling 5 acre campus in a serene atmosphere. In short it is known as V.M.J.Hr.Sec.School.The landmark is Mariamman&nbsp; Theppakulam.</p>
+				</div>
+		</div>
+	</section>
+</template>
+</odoo>
