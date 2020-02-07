@@ -214,7 +214,7 @@
   											</div>
     										<div class="views-row">
     											<div class="view-event-wrapper">
-														<div class="views-field views-field-field-mt-event-date">
+														<div class="v	iews-field views-field-field-mt-event-date">
 															<time datetime="13Z" class="datetime">Jun 21</time>
 														</div>
 														<div class="views-field views-field-title">
@@ -250,13 +250,296 @@
 		</xpath>
 </template>
 <template id="foot" name="Footer">
-	<section class="footer">
-		<div class="container" style="width: 555; height: 169;">
-			<h2 class="title">Description</h2>
-				<div class="desp">
-					<p>Virudhunagar T.S.M. Manickam Nadar–Janaki Ammal Higher Secondary School is situated in the heart of the city, on the New Ramnad Road, on a sprawling 5 acre campus in a serene atmosphere. In short it is known as V.M.J.Hr.Sec.School.The landmark is Mariamman&nbsp; Theppakulam.</p>
+	<section class="foot col-md-12 col-sm-12">
+		<footer id="footer" class="clearfix">
+			<div class="row">
+				<div class="container foo col-md-12 col-sm-12" style="float: left;">
+					<h2 class="title">Description</h2>
+					<div class="desp">
+						<p>Virudhunagar T.S.M. Manickam Nadar–Janaki Ammal Higher Secondary School is situated in the heart of the city, on the New Ramnad Road, on a sprawling 5 acre campus in a serene atmosphere. In short it is known as V.M.J.Hr.Sec.School. The landmark is Mariamman Theppakulam.</p>
+					</div>
 				</div>
-		</div>
+				<div class="container foo1 col-md-12 col-sm-12" style="float: right;">
+					<h2> Address</h2>
+					<p>100, New Ramnad Road,<br/>Madurai - 625009<br/>Phone: +91 452 2311748, +91 452 2311874<br/>E-Mail: office@vmjschool.org</p>
+				</div>
+			</div>
+		</footer>
 	</section>
+</template>
+<template id="place_into_bar4" inherit_id="website.snippets" name="Place into bar4">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.foot"/>
+		</xpath>
+</template>
+<template id="sub_foot" name="Subfoot">
+	<section class="sub">
+		<footer id="foot" class="clearfix">
+			<div class="container foos col-sm-12 col-md-6 col-lg-6">
+				<p>Copyright © vmjschool 2017. All rights Reserved.</p>
+			</div>
+			<div class="container menus col-xs-12 col-md-6 col-lg-6">
+				<ul class="clearfix menu">
+					<li class="menu_item">
+						<a href="about.xml">About</a>
+					</li>
+					<li class="menu_item">
+						<a href="admin.xml">Administration</a>
+					</li>
+					<li class="menu_item">
+						<a href="contact.xml">Contact</a>
+					</li>
+					<li class="menu_item">
+						<a href="about.xml">Alumni Registration</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</section>
+</template>
+<template id="place_into_bar5" inherit_id="website.snippets" name="Place into bar5">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.sub_foot"/>
+		</xpath>
+</template>
+<template id="image_off" name="Official Images">
+    <section class="img_off">
+    		<div class="cont1"  style="width: 1284px; height: 175px;">
+            <div class="row">
+								<div class="img_foot">
+									<div class="text-center">
+										<table style="width: 100%">
+											<tr>
+												<td class="img_row" style="width: 285px; height: 132px">
+                  	  		<img class="cla1" src="/theme_variant/static/src/img/Foot/acc21.png" width="150px" height="130px"/>
+                  	  	</td>
+                  	  	<td class="img_row" style="width: 285px; height: 130px">
+                    			<img class="cla2" src="/theme_variant/static/src/img/Foot/acc22.png"  width="150px" height="130px"/>
+                    		</td>
+                    		<td class="img_row" style="width: 285px; height: 130px">
+                  	  		<img class="cla3" src="/theme_variant/static/src/img/Foot/acc23.png"  width="150px" height="130px"/>
+                  	  	</td>
+                  			<td class="img_row" style="width: 285px; height: 130px">
+                  	  		<img class="cla4" src="/theme_variant/static/src/img/Foot/acc24.png"  width="150px" height="130px"/>
+                  	  	</td>
+                  		</tr>
+                  	</table>
+									</div>
+								</div>
+						</div>
+				</div>
+		</section>
+</template>
+<template id="place_into_bar6" inherit_id="website.snippets" name="Place into bar6">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.image_off"/>
+		</xpath>
+</template>
+<template id="head" name="Header">
+		<section class="header">	
+				<div class="container cont2"> 
+					<div class="head-top">
+							<div class="row r2 col-md-8">
+								<div class="head-top-area">
+									<div class="head-super">
+											<ul class="menu-head">
+												<li class="menu-list-head">
+														<a href="about.xml">About</a>
+												</li>
+												<li class="menu-list-head">
+														<a href="admin.xml" class="menu-head-parent">Administration</a>
+														<ul class="hide" style="float: none; width: 12em;">
+															<li class="hide-menu-list">
+																<a href="school-leadership.xml">School Leaderships</a>
+															</li>
+															<li class="hide-menu-list">
+																<a href="office-bearers.xml">Office Beareres</a>
+															</li>
+															<li class="hide-menu-list">
+																<a href="board-of-trustees.xml">Board Of Trustees</a>
+															</li>
+														</ul>
+												</li>
+												<li class="menu-list-head">
+														<a href="contact.html">Contact</a>
+												</li>
+												<li class="menu-list-head">
+														<a href="alumni.html">Alumni Registration</a>
+												</li>
+											</ul>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+				<div class="search-container">
+					<div class="form-item">
+						<form action="/actionpage.xml">
+								<input type="text" placeholder="Enter terms then hit Search..." style="font-family: 'Lato',Helvetica Neue,Arial,Sans-serif; font-size: 12px;"/> 
+								<button type="submit"><i class="fa fa-search"></i></button>
+						</form> 	
+					</div>			
+				</div>
+		</section>
+</template>
+<template id="place_into_bar7" inherit_id="website.snippets" name="Place into bar7">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.head"/>
+		</xpath>
+</template>
+<template id="logo" name="Logo">
+	<section class="header-enter">
+		<header id="head" class="head_one">
+			<div class="conti">
+				<div class="row">
+					<div class="head-in-left">
+						<div class="region-head">
+							<div class="block-scholar">
+								<div class="logo">
+									<a href="carousel.xml">
+										<img src="/theme_variant/static/src/img/logo.png"/>
+									</a>
+								</div>
+								<div class="site_name">
+									<a href="carousel.xml">VMJ School</a>
+								</div>
+								<div class="slogan">Knowledge is Treasure</div>
+							</div>
+						</div>
+					</div>
+					<!--<div class="head-in-right">
+						<nav role="navigation">
+							<div class="region-nav">
+								<div class="block-nav">
+									<div class="content">
+										<ul class="list-fish">
+											<li class="sf-depth-1">
+												<a href="#vmj" class="sf-depth-1">VMJ's Forte</a>
+												<ul class="sf-hidden" style="float: none; width: 12em;">
+													<li class="sf-depth-2">
+														<a href="#teachersdesk" class="sf-depth-2">From the teachers desk</a>
+													</li>
+													<li class="sf-depth-2">
+														<a href="#certify" class="sf-depth-2">Curriculam and Certification</a>
+													</li>
+													<li class="sf-depth-2">
+														<a href="#facilities" class="sf-depth-2">Facilities</a>
+														<ul class="sf-hidden" style="left: 100%; float: none; width: 12em; top: auto; display: block;">
+															<li class="sf-depth-3">
+																<a href="#lab" class="sf-depth-3">Laboratory</a>
+															</li>
+															<li class="sf-depth-3">
+																<a href="#lib" class="sf-depth-3">Library</a>
+															</li>
+															<li class="sf-depth-3">
+																<a href="#smart" class="sf-depth-3">Smart Room</a>
+															</li>
+															<li class="sf-depth-3">
+																<a href="#sports" class="sf-depth-3">Sports Facilities</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+											<li class="sf-depth-1">
+												<a href="#studlife" class="sf-depth-1">Student Life</a>
+												<ul class="sf-hidden" style="float: none; width: 12em;">
+													<li class="sf-depth-2">
+														<a href="#tournaments" class="sf-depth-2">Tournaments</a>
+													</li>
+													<li class="sf-depth-2">
+														<a href="#scale" class="sf-depth-2">Scaling Peaks</a>
+													</li>
+													<li  class="sf-depth-2">
+														<a href="#extra" class="sf-depth-2">Extra and co-curriular activities</a>
+														<ul class="sf-hidden" style="left: 100%; float: none; width: 12em;">
+															<li class="sf-depth-3">
+																<a href="#dance" class="sf-depth-3">Dance</a>
+															</li>
+															<li class="sf-depth-3">
+																<a href="#music" class="sf-depth-3">Music</a>
+															</li>
+															<li class="sf-depth-3">
+																<a href="#yoga" class="sf-depth-3">Yoga</a>
+															</li>
+															<li class="sf-depth-3">
+																<a href="#band" class="sf-depth-3">Band</a>
+															</li>
+															<li class="sf-depth-3">
+																<a href="#karate" class="sf-depth-3">Karate</a>
+															</li>
+															<li class="sf-depth-3">
+																<a href="#artandcraft" class="sf-depth-3">Art and Craft</a>
+															</li>
+														</ul>
+													</li>
+													<li class="sf-depth-2">
+														<a href="#wintoworld" class="sf-depth-2">Windows To The World(Educational Tours)</a>
+													</li>
+													<li class="sf-depth-2">
+														<a href="#school-magzine" class="sf-depth-2">Yearly Talent Magzine</a>
+													</li>
+													<li class="sf-depth-2">
+														<a href="#housepoints" class="sf-depth-2">House Points</a>
+													</li>
+													<li class="sf-depth-2">
+														<a href="#interactor" class="sf-depth-2">Interactors Activity</a>
+													</li>
+												</ul>
+											</li>
+											<li class="sf-depth-1">
+												<a href="#academics" class="sf-depth-1">Academics</a>
+												<ul class="sf-hidden" style="float: none; width: 12em;">
+													<li class="sf-depth-2">
+														<a href="#fonudblock" class="sf-depth-2">Foundation Block</a>
+													</li>
+													<li class="sf-depth-2">
+														<a href="#bindblock" class="sf-depth-2">Binding Block</a>
+													</li>
+													<li class="sf-depth-2">
+														<a href="#concrete" class="sf-depth-2">Concrete Block</a>
+													</li>
+													<li class="sf-depth-2">
+														<a href="#tower" class="sf-depth-2">Towering Block</a>
+													</li>
+													<li class="sf-depth-2">
+														<a href="#shine" class="sf-depth-2">We Shine</a>
+													</li>
+													<li class="sf-depth-2">
+														<a href="#calendar" class="sf-depth-2">Calender</a>
+														<ul class="sf-hidden" style="left: 100%; float: none; width: 12em;">
+															<li class="sf-depth-3">
+																<a href="schedule" class="sf-depth-3">School Schedule</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+											<li class="sf-depth-1">
+												<a href="#events" class="sf-depth-1">Events</a>
+												<ul class="sf-hidden" style="float: none; width: 12em;">
+													<li class="sf-depth-2">
+														<a href="#housesys" class="sf-depth-2">House System(fortnight)</a>
+													</li>
+													<li class="sf-depth-2">
+														<a href="#news" class="sf-depth-2">Latest News</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</nav>
+					</div>-->
+				</div>
+			</div>
+		</header>
+	</section>
+</template>
+<template id="place_into_bar8" inherit_id="website.snippets" name="Place into bar8">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.logo"/>
+		</xpath>
 </template>
 </odoo>
