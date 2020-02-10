@@ -407,131 +407,6 @@
 							</div>
 						</div>
 					</div>
-					<!--<div class="head-in-right">
-						<nav role="navigation">
-							<div class="region-nav">
-								<div class="block-nav">
-									<div class="content">
-										<ul class="list-fish">
-											<li class="sf-depth-1">
-												<a href="#vmj" class="sf-depth-1">VMJ's Forte</a>
-												<ul class="sf-hidden" style="float: none; width: 12em;">
-													<li class="sf-depth-2">
-														<a href="#teachersdesk" class="sf-depth-2">From the teachers desk</a>
-													</li>
-													<li class="sf-depth-2">
-														<a href="#certify" class="sf-depth-2">Curriculam and Certification</a>
-													</li>
-													<li class="sf-depth-2">
-														<a href="#facilities" class="sf-depth-2">Facilities</a>
-														<ul class="sf-hidden" style="left: 100%; float: none; width: 12em; top: auto; display: block;">
-															<li class="sf-depth-3">
-																<a href="#lab" class="sf-depth-3">Laboratory</a>
-															</li>
-															<li class="sf-depth-3">
-																<a href="#lib" class="sf-depth-3">Library</a>
-															</li>
-															<li class="sf-depth-3">
-																<a href="#smart" class="sf-depth-3">Smart Room</a>
-															</li>
-															<li class="sf-depth-3">
-																<a href="#sports" class="sf-depth-3">Sports Facilities</a>
-															</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li class="sf-depth-1">
-												<a href="#studlife" class="sf-depth-1">Student Life</a>
-												<ul class="sf-hidden" style="float: none; width: 12em;">
-													<li class="sf-depth-2">
-														<a href="#tournaments" class="sf-depth-2">Tournaments</a>
-													</li>
-													<li class="sf-depth-2">
-														<a href="#scale" class="sf-depth-2">Scaling Peaks</a>
-													</li>
-													<li  class="sf-depth-2">
-														<a href="#extra" class="sf-depth-2">Extra and co-curriular activities</a>
-														<ul class="sf-hidden" style="left: 100%; float: none; width: 12em;">
-															<li class="sf-depth-3">
-																<a href="#dance" class="sf-depth-3">Dance</a>
-															</li>
-															<li class="sf-depth-3">
-																<a href="#music" class="sf-depth-3">Music</a>
-															</li>
-															<li class="sf-depth-3">
-																<a href="#yoga" class="sf-depth-3">Yoga</a>
-															</li>
-															<li class="sf-depth-3">
-																<a href="#band" class="sf-depth-3">Band</a>
-															</li>
-															<li class="sf-depth-3">
-																<a href="#karate" class="sf-depth-3">Karate</a>
-															</li>
-															<li class="sf-depth-3">
-																<a href="#artandcraft" class="sf-depth-3">Art and Craft</a>
-															</li>
-														</ul>
-													</li>
-													<li class="sf-depth-2">
-														<a href="#wintoworld" class="sf-depth-2">Windows To The World(Educational Tours)</a>
-													</li>
-													<li class="sf-depth-2">
-														<a href="#school-magzine" class="sf-depth-2">Yearly Talent Magzine</a>
-													</li>
-													<li class="sf-depth-2">
-														<a href="#housepoints" class="sf-depth-2">House Points</a>
-													</li>
-													<li class="sf-depth-2">
-														<a href="#interactor" class="sf-depth-2">Interactors Activity</a>
-													</li>
-												</ul>
-											</li>
-											<li class="sf-depth-1">
-												<a href="#academics" class="sf-depth-1">Academics</a>
-												<ul class="sf-hidden" style="float: none; width: 12em;">
-													<li class="sf-depth-2">
-														<a href="#fonudblock" class="sf-depth-2">Foundation Block</a>
-													</li>
-													<li class="sf-depth-2">
-														<a href="#bindblock" class="sf-depth-2">Binding Block</a>
-													</li>
-													<li class="sf-depth-2">
-														<a href="#concrete" class="sf-depth-2">Concrete Block</a>
-													</li>
-													<li class="sf-depth-2">
-														<a href="#tower" class="sf-depth-2">Towering Block</a>
-													</li>
-													<li class="sf-depth-2">
-														<a href="#shine" class="sf-depth-2">We Shine</a>
-													</li>
-													<li class="sf-depth-2">
-														<a href="#calendar" class="sf-depth-2">Calender</a>
-														<ul class="sf-hidden" style="left: 100%; float: none; width: 12em;">
-															<li class="sf-depth-3">
-																<a href="schedule" class="sf-depth-3">School Schedule</a>
-															</li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li class="sf-depth-1">
-												<a href="#events" class="sf-depth-1">Events</a>
-												<ul class="sf-hidden" style="float: none; width: 12em;">
-													<li class="sf-depth-2">
-														<a href="#housesys" class="sf-depth-2">House System(fortnight)</a>
-													</li>
-													<li class="sf-depth-2">
-														<a href="#news" class="sf-depth-2">Latest News</a>
-													</li>
-												</ul>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</nav>
-					</div>-->
 				</div>
 			</div>
 		</header>
@@ -540,6 +415,395 @@
 <template id="place_into_bar8" inherit_id="website.snippets" name="Place into bar8">
   	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
   		<t t-snippet="theme_variant.logo"/>
+		</xpath>
+</template>
+<template id="sign-in" name="sign">
+		<section class="alumni col-md-12 col-sm-12 col-xs-12">
+			<div class="form">
+				<div class="head">
+					<h3>Alumni Entry Form</h3>
+				</div>
+				<form class="form-alumni" method="post">
+					<table border="0" width="100%" class="table-sign">
+						<tbody>
+							<tr>
+								<th colspan="3" style="color: #ffffff;">Identify Yourself</th>
+							</tr>
+							<tr>
+								<td width="21%">
+									<label for="txtalumniname">Alumni Name (Full) *</label>
+								</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtalumniname" id="txtalumniname" size="40"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Date Of Birth [DD/MM/YY] *</td>
+								<td width="2%" align="center" valign="top">
+									<b>:</b>
+								</td>
+								<td width="77%" valign="top">
+									<input type="text" name="txtdob" size="10" maxlength="10"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Examination</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<select name="cmbboard" id="cmbboard">
+										<option value="ICSE">ICSE</option>
+										<option value="ISC">ISC</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Year of Passing ICSE / ISC</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtyop" id="txtyop" size="8" onkeypress="return number(event)" maxlength="4"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">My Teachers</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtteacher1" id="txtteacher1" size="20"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%"></td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtteacher2" id="txtteacher2" size="20"/>
+								</td>
+							</tr>
+							<tr>
+								<th colspan="3" style="color: #ffffff;">Contact Details</th>
+							</tr>
+							<tr>
+								<td width="21%">City *</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtcity" id="txtcity" size="30"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">State *</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtstate" id="txtstate" size="30"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Country *</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtcountry" id="txtcountry" size="30"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Mobile No.</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtmob" id="txtmob" onkeypress="return number(event)"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">
+									<label for="txtemail">Email</label>
+								</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="email" name="txtemailid" id="txtemailid" size="30"/>
+								</td>
+							</tr>
+							<tr>
+								<th colspan="3" style="color:#ffffff;">Qualification Details</th>
+							</tr>
+							<tr>
+								<td width="21%">Qualification/Profession Category</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<select name="qualcat" id="qualcat">
+										<option selected="selected">----Select Present Status----</option>
+										<option value="Medicine Field">Medicine Field</option>
+										<option value="IT Professional">IT Professional</option>
+										<option value="Engineer">Engineer</option>
+										<option value="Banking Sector">Banking Sector</option>
+										<option value="Law">Law</option>
+										<option value="Education">Education</option>
+										<option value="Research">Research</option>
+										<option value="Others">Others</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Highest Qualification held *</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txthigh" id="txthigh" size="40"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Specialization / Major</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtmajor" id="txtmajor" size="40"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Your special skill (In any area of interest)</td>
+								<td width="2%" align="center" valign="top">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtskill" id="txtskill" valign="top" size="40"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Institute / College / University *</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtclge" id="txtclge" size="30"/>
+								</td>
+							</tr>
+							<tr>
+								<th colspan="3" style="color:#ffffff;">Employment Details</th>
+							</tr>
+							<tr>
+								<td width="21%">Present Status</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<select name="empstatus" id="empstatus" onchange="enableemploymentdetails(this.value)">
+										<option selected="selected">----Select Present Status----</option>
+										<option value="Job">Job</option>
+										<option value="Self Employed">Self Employed</option>
+										<option value="Business">Business</option>
+										<option value="Student">Student</option>
+										<option value="House Maker">House Maker</option>
+										<option value="Others">Others</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="3" align="left">
+									<table border="0" id="row_job" style="display: none;">
+										<tbody>
+											<tr>
+												<td width="21%" style="width: 760px;">Current Organisation *</td>
+												<td width="2%" align="center">
+													<b>:</b>
+												</td>
+												<td width="77%">
+													<input type="text" name="txtorg" id="txtorg" size="40"/>
+												</td>
+											</tr>
+											<tr>
+												<td width="21%">Current Designation *</td>
+												<td width="2%" align="center">
+													<b>:</b>
+												</td>
+												<td width="77%">
+													<input type="text" name="txtdes" id="txtdes" size="40"/>
+												</td>
+											</tr>
+											<tr>
+												<td width="21%">Current Organisation's Website /Your Website</td>
+												<td width="2%" align="center" valign="top">
+													<b>:</b>
+												</td>
+												<td width="77%" valign="top">
+													<input type="text" name="txtweb" id="txtweb" size="40"/>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="3" align="left">
+									<table border="0" id="row_others" style="display: none;">
+										<tbody>
+											<tr>
+												<td width="21%" style="width: 760px;">Details</td>
+												<td width="2%" align="center">
+													<b>:</b>
+												</td>
+												<td width="77%">
+													<input type="text" name="txtothers" id="txtothers" size="40"/>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<th colspan="3" style="color: #ffffff;">Details About You</th>
+							</tr>
+							<tr>
+								<td width="21%">About me</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<textarea name="txtabtme" id="txtabtme" rows="5" cols="50"></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Upload Photo</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="file" name="filephoto" id="filephoto"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%"></td>
+								<td width="2%" align="center">
+									<b></b>
+								</td>
+								<td width="77%">
+									<input type="button" value="Submit"/>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+			</div>
+		</section>
+	</template>
+	<template id="place_into_bar8" inherit_id="website.snippets" name="Place into bar8">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.sign-in"/>
+		</xpath>
+</template>
+<template id="tab1" name="Extra">
+	<section class="s_tabs">
+		<div class="container col-md-12 col-sm-12">
+			<div class="row s_col_no_bgcolor">
+				<div class="card bg-white">
+					<div class="heading">
+						<h2>Extracurricular Activities</h2>
+					</div>
+					<div class="chead card-header">
+						<ul class="nav nav-tabs card-header-tabs" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" id="nav_tabs_link_1" data-toggle="tab" aria-controls="nav_tabs_content_1" aria-selected="true">Dance</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="nav_tabs_link_2" data-toggle="tab" aria-controls="nav_tabs_content_2" aria-selected="false">Music</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="nav_tabs_link_3" data-toggle="tab" aria-controls="nav_tabs_content_3" aria-selected="false">Yoga</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="nav_tabs_link_4" data-toggle="tab" aria-controls="nav_tabs_content_4" aria-selected="false">Band</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="nav_tabs_link_5" data-toggle="tab" aria-controls="nav_tabs_content_5" aria-selected="false">Karate</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="nav_tabs_link_6" data-toggle="tab" aria-controls="nav_tabs_content_6" aria-selected="false">Art and Craft</a>
+							</li>
+						</ul>
+					</div>
+					<div class="card-para card-body tab-content">
+						<div class="tab-pane fade show active" id="nav_tabs_content_1" role="tabpanel" aria-labelledby="nav_tabs_link_1">
+							<img src="/theme_variant/static/src/img/extra/IMG_5984.jpeg"/><br/>
+								<p>Bharatanatyam is a reworked dance-form from the traditional “sadir” known for its grace, purity, tenderness, and sculpturesque poses. Today, it is one of the most popular and widely performed dance styles and is practiced by male and female dancers all over the world.</p>
+						</div>
+						<div class="tab-pane fade" id="nav_tabs_content_2" role="tabpanel" aria-labelledby="nav_tabs_link_2">
+							<p>Music is all around us, in nature, in our daily lives. From the singing of the birds and the croaking of frogs to the tapping of feet and jumping of knees — even when no music is actually playing. Music is natural to people and creativity is among the ways in which we are “made in the image of God.” Music is one of the first things to go when a school system has to cut corners. Sure, it seems like an “extra,” but learning music helps children in ways that may not be seen or understood generally.</p>
+							<p>There are many proven benefits of teaching music to children from an early age.We teach music to children from standard I to IX .Music affects the part of the brain associated with logic and reasoning. Music can actually help the brain to develop in these areas. Music promotes good habits, helps children learn language, and helps them understand their world better.</p>
+							<p>Music is an Universal Language. We teach music in an easy way to children. II and III standard students are taught Slokas, Bhajan’s and Patriotic songs.IV to VII standard students are taught Bhajan’s, Patriotic songs, Devotional songs and Keertanai.</p>
+						</div>
+						<div class="tab-pane fade" id="nav_tabs_content_3" role="tabpanel" aria-labelledby="nav_tabs_link_3">
+							<img src="/theme_variant/static/src/img/extra/yog2.jpeg"/>
+							<img src="/theme_variant/static/src/img/extra/yog1.jpeg"/><br/>
+							<p>“Yoga is not about self improvement its about self acceptance”</p>
+							<p>Yoga is seen as a process of inner journey (or) ascent of consciousness. The heart of our school yoga system is to integrate all elements of ancient knowledge of yoga to make discipline, uniting the body, mind and soul.</p>
+						</div>
+						<div class="tab-pane fade" id="nav_tabs_content_4" role="tabpanel" aria-labelledby="nav_tabs_link_4">
+							<img src="/theme_variant/static/src/img/extra/band1.jpeg"/>
+							<img src="/theme_variant/static/src/img/extra/band2.jpeg"/><br/>
+							<p>School band consists of wind instruments like flute, trumpet and percussion instruments like kettle drum, base drum.</p>
+						</div>
+						<div class="tab-pane fade" id="nav_tabs_content_5" role="tabpanel" aria-labelledby="nav_tabs_link_5">
+							<img src="/theme_variant/static/src/img/extra/karate.jpg"/><br/>
+							<p>It is practically impossible to learn karate without the aid of a karate <strong>master</strong>Some students take up karate as a form of exercise or a way to relieve stress. Others only want to learn a few moves to aid in self-defense. We teach Karate in an excellent way to build self-confidence. Whatever their original interest, many karatekas eventually fall in love with the practice: Karate becomes a way of life.The goal of karate is not necessarily to progress through the different kyus; if a karateka gets what he or she needs from the experience, then the training is a success. But most karatekas end up advancing to higher levels if they come to class regularly. Students may come to class once every week.</p>
+						</div>
+						<div class="tab-pane fade" id="nav_tabs_content_6" role="tabpanel" aria-labelledby="nav_tabs_link_6">
+							<img src="/theme_variant/static/src/img/extra/art1.jpg"/>
+							<img src="/theme_variant/static/src/img/extra/art3.jpg"/><br/>
+							<p><strong>Art education</strong> is the area of learning that is based upon the visual, tangible arts—drawing, painting, sculpture, and design in jewelry, pottery, weaving, fabrics, etc. and design applied to more practical fields such as commercial graphics and home furnishings. Craft class encompasses all the visual and performing arts delivered in a standards-based, sequential as part of the core curriculum. Its core is the study of inseparable artistic and aesthetic experience and learning.</p>
+							<p>Studies have proved that Art &amp; Craft, like drama, music and dance, play an important role in the development of the child’s personality. Consequently, it has become an integral part of education. In addition to the development of a balanced personality, in itself, the act of drawing is a source of joy to the child. When children draw and make things with their own hands not only do they learn, but also derive the joy of satisfaction in these activities. In addition they develop an aesthetic sense.</p>
+							<p>In the modern age of education system, Art has played a vital role in studying and understanding other subjects. Art has been developed the natural aspect and the comprehension level of the children class-wise. Even the most difficult subject has been explained in a very easy manner, with the help of latest drawing techniques.</p>
+							<p>Basic shapes like squares, circles, rectangles have been used to form parts of known objects and geometrical designs.</p>
+							<p><u>Types of Drawing being taught</u></p>
+							<ul>
+								<li>Nature Drawing</li>
+								<li>Human Drawing</li>
+								<li>Object Drawing</li>
+								<li>Imagination Drawing</li>
+							</ul>
+							<p><u>Medium of Coloring</u></p>
+							<ul>
+								<li>Crayon Coloring</li>
+								<li>Color Pencil Coloring</li>
+							</ul>
+							<p><u>Medium of Paintings</u></p>
+							<ul>
+								<li>Water Color Painting</li>
+								<li>Poster Color Painting</li>
+								<li>Fabric Color Painting</li>
+								<li>Oil Color Painting</li>
+								<li>Acrylic Color Painting</li>
+							</ul>
+							<p>From I STD to III STD students learn pencil drawing, then coloring the surface evenly from left to right. Through this they learn hand coordination and to define colors surface wise. Side by side they also develop their own imagination.</p>
+							<p>From IV STD to VIII STD they develop their painting knowledge, using their previous coloring sense. The students get trained to apply their imagination and creativity in art and craft. It also helps them prepare their project work on any given subject.</p>
+							<p>The art and craft classes definitely help them improve their artistic skills and come out with flying colors in any competition on art.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</template>
+<template id="place_into_bar9" inherit_id="website.snippets" name="Place into bar9">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.tab1"/>
 		</xpath>
 </template>
 </odoo>

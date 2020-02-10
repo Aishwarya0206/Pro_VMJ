@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<data>
+        <menuitem id="menu_school" name="School"/>
+        <menuitem id="school_student" name="Alumni" parent="menu_school"  
+                  action="action_view_alumni"/>
+ </data>
+<record model="ir.actions.act_window" id="action_view_alumni">
+            <field name="name">Alumni</field>
+            <field name="res_model">alumni.alumni</field>
+            <field name="view_type">tree</field>
+            <field name="view_mode">tree</field>
+            <field name="domain">[]</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Create new alumni
+                </p>
+            </field>
+</record>
+<record id="view_alumni_tree" model="ir.ui.view">
+            <field name="name">alumni.alumni.tree</field>
+            <field name="model">alumni.alumni</field>
+            <field name="priority" eval="8" />
+            <field name="arch" type="xml">
+                <tree string="Student">
+                    <field name="name" />
+                    <field name="alumni_dob" />
+                    <field name="exam" />
+                    <field name="yop" />
+                    <field name="my_teachers" />
+                    <field name="city" />
+                    <field name="state" />
+                    <field name="country" />
+                    <field name="mob_no"/>
+                    <field name="email"/>
+                    <field name="qual"/>
+                    <field name="hqh"/>
+                    <field name="som"/>
+                    <field name="ysk"/>
+                    <field name="clge"/>
+                    <field name="ped"/>
+                    <field name="about"/>
+                    <field name="photo"/>
+                </tree>
+            </field>
+</record>
+</odoo>
