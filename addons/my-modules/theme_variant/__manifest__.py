@@ -25,8 +25,8 @@
     # always loaded
     'data': [
         'views/assets.xml',
-		'views/opt.xml',
-		'views/carousel.xml',
+	'views/opt.xml',
+	'views/carousel.xml',
         #'views/view.xml',
     ],
     'application': False,
