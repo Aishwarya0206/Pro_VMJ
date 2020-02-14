@@ -1,0 +1,119 @@
+<odoo>
+
+        <!-- window action -->
+        <!--
+            The following tag is an action definition for a "window action",
+            that is an action opening a view or a set of views
+        -->
+	<record model="ir.ui.view" id="form_form_view">
+            <field name="name">form.form</field>
+            <field name="model">res.partner</field>
+            <field name="arch" type="xml">
+                <form string="Alumni Form">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record model="ir.actions.act_window" id="form_list_action">
+            <field name="name">Forms</field>
+            <field name="res_model">res.partner</field>
+	    <!--<field name="view_type">form</field>-->
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_create">Create the first alumni
+                </p>
+            </field>
+        </record>
+	<record id="view_alumni_form" model="ir.ui.view">
+            <field name="name">alumni.alumni.form</field>
+            <field name="model">res.partner</field>
+            <field name="priority" eval="8" />
+            <field name="arch" type="xml">
+                <form string="Alumni">
+                    <sheet>
+                        <field name="photo" widget="image" class="oe_left oe_avatar" />
+                        <div class="oe_title">
+                            <h1>
+                                <table>
+                                    <tr>
+                                        <td style="padding-right:10px;"><field name="name" required="1" placeholder="First Name" /></td>
+                                    </tr>
+                                </table>
+                            </h1>
+                        </div>
+                        <notebook colspan="4">
+                            <page name="alumni_information"
+                                string="Alumni Information">
+                                <group col="4" colspan="4"
+                                    name="personal_detail">
+                                    <field name="alumni_dob" />
+                                    <field name="exam" />
+                                    <field name="yop" />
+                                    <field name="my_teachers" />
+                                    <field name="city" />
+                                    <field name="state" />
+				    <field name="country" />
+				    <field name="mob_no" />
+				    <field name="email" />
+				    <field name="qual" />
+				    <field name="hqh" />
+				    <field name="som" />
+				    <field name="ysk" />
+				    <field name="clge" />
+				    <field name="ped" />
+				    <field name="about" />
+				    <field name="photo" />
+                                </group>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+	<record id="view_alumni_tree" model="ir.ui.view">
+            <field name="name">alumni.alumni.tree</field>
+            <field name="model">res.partner</field>
+            <field name="priority" eval="8" />
+            <field name="arch" type="xml">
+                <tree string="Student">
+                    <field name="name" />
+                    <field name="alumni_dob" />
+                    <field name="exam" />
+                    <field name="yop" />
+                    <field name="my_teachers" />
+                    <field name="city" />
+                    <field name="state" />
+                    <field name="country" />
+                    <field name="mob_no"/>
+                    <field name="email"/>
+                    <field name="qual"/>
+                    <field name="hqh"/>
+                    <field name="som"/>
+                    <field name="ysk"/>
+                    <field name="clge"/>
+                    <field name="ped"/>
+                    <field name="about"/>
+                    <field name="photo"/>
+                </tree>
+            </field>
+	</record>
+        <!-- top level menu: no parent -->
+        <menuitem id="main_alumni_form_menu" name="Alumni Form"/>
+        <!-- A first level in the left side menu is needed
+             before using action= attribute -->
+        <menuitem id="alumni_form_menu" name="Alumni Form"
+                  parent="main_alumni_form_menu"/>
+        <!-- the following menuitem should appear *after*
+             its parent openacademy_menu and *after* its
+             action course_list_action -->
+        <menuitem id="forms_menu" name="Forms" parent="alumni_form_menu"
+                  action="form_list_action"/>
+        <!-- Full id location:
+             action="openacademy.course_list_action"
+             It is not required when it is the same module -->
+
+</odoo>

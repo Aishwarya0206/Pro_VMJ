@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<template id="quote" name="Quotes">
+	<section class="quote">
+			<div class="container-fluid text-center">
+				<div class="row">
+					<h2> Welcome to the school </h2>
+				</div>
+			</div>
+	</section>
+</template>
+<template id="place_into_bar1" inherit_id="website.snippets" name="Place into bar1">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.quote"/>
+		</xpath>
+</template>
+</odoo>

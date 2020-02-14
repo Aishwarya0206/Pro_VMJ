@@ -1,0 +1,31 @@
+<odoo>
+
+        <!-- window action -->
+        <!--
+            The following tag is an action definition for a "window action",
+            that is an action opening a view or a set of views
+        -->
+	
+        <record model="ir.ui.view" id="view_partner_form_inherit">
+            <field name="name">Partners</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+            		<field name="type" position="before">
+				<field name="date"/>
+					<field name="exam"/>
+					<field name="yop"/>
+					<field name="my_teachers"/>
+			</field>  
+			<field name="type" position="after">
+				<field name="qual"/>
+				<field name="hqh"/>
+				<field name="som"/>
+				<field name="ysk"/>
+				<field name="clg"/>
+				<field name="ped"/>
+				<field name="about"/>
+  			</field>
+	    </field>
+        </record> 
+</odoo>

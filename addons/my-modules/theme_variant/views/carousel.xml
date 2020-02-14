@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<!--Carousel School Banner-->
+<template id="carousel" name="Carousel Testimonial">
+	<section class="carousel">
+	<div id="vmjCarousel" class="s_carousel carousel_default carousel slide" data-interval="10000">
+		<!-- Indicators -->
+		<ol class="indi carousel-indicators">
+			<li data-target="#vmjCarousel" data-slide-to="0" class="active"/>
+			<li data-target="#vmjCarousel" data-slide-to="1"/>
+			<li data-target="#vmjCarousel" data-slide-to="2"/>
+		</ol>
+		<!-- Content -->
+		<div id="inner" class="carousel-inner">
+			<!-- #01 -->
+			<div class="col-md-12 carousel-item active oe_custom_bg oe_img_bg pt200 pb200" style="background-image: url('/theme_variant/static/src/img/11.jpg');" data-name="Slide">
+				<div class="carousel-container">
+					<div class="row content">
+						<div id="content" class="carousel-content trans text-center pt48 pb40">
+							<h2 class="col-md-12">ON CAMPUS VIEW</h2>
+       	      <p class="col-md-12 pt35 pb0 lead">The first concrete expression of our school took its dimensions in 1976 spreading its wings in later years to accommodate more spreading…</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- #02 -->
+      <div class="col-md-12 carousel-item oe_custom_bg oe_img_bg pt200 pb200" style="background-image: url('/theme_variant/static/src/img/22.jpg');">
+				<div class="carousel-container">
+					<div class="row content">
+						<div id="content" class="carousel-content trans text-center pt48 pb40">
+							<h2 class="col-md-12">Educational Establish</h2>
+       	      <p class="col-md-12 pt35 pb0 lead">One of the most substantial uses in education is the use of technology. Also technology is an increasingly influential factor in…</p>
+						</div>
+					</div>
+       	</div>
+			</div>
+      <!-- #03 -->
+      <div class="col-md-12 carousel-item oe_custom_bg oe_img_bg pt200 pb200" style="background-image: url('/theme_variant/static/src/img/33.jpg');">
+      	<div class="carousel-container">
+       		<div class="row content">
+       	  	<div id="content" class="carousel-content trans text-center pt48 pb40">
+							<h2 class="col-md-12">Listen strongly, Learn quickly</h2>
+       	      <p id="para" class="col-md-12 pt35 pb0 lead">Good listening skills do not simply develop naturally – they need to be learnt and practiced. This resource uses real-life examples and…</p>
+						</div>
+         	</div>
+       	</div>
+      </div>
+     </div>
+     <!-- Controls -->
+     <div class="prev carousel-control-prev" data-target="#vmjCarousel" data-slide="prev" role="img" aria-label="Previous" title="Previous">
+         <span class="carousel-control-prev-icon"/>
+         <span class="sr-only">Previous</span>
+     </div>
+     <div class="next carousel-control-next" data-target="#vmjCarousel" data-slide="next" role="img" aria-label="Next" title="Next">
+         <span class="carousel-control-next-icon"/>
+         <span class="sr-only">Next</span>
+     </div>
+	</div>
+	</section>
+</template>
+<template id="place_into_bar1" inherit_id="website.snippets" name="Place into bar1">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.carousel"/>
+		</xpath>
+</template>
+<!-- Quote for school quotes -->
+<template id="quote" name="Quotes">
+	<section class="quote">
+		<div class="row container-fluid text-center">
+			<h3 class="head">"A Century old charitable trust synonymous with service to humanity"</h3><br/>
+			<p class="para">A Balanced Schooling</p>
+		</div>
+	</section>
+</template>
+<template id="place_into_bar2" inherit_id="website.snippets" name="Place into bar2">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.quote"/>
+		</xpath>
+</template>
+<!-- Features Vision & Mission-->
+<template id="feature" name="Features">
+    <section class="feature">
+    		<div class="container cont"  style="width: 780; height: 315;">
+            <div class="row">
+								<div class="fea text-center">
+                    <img class="cl1" src="/theme_variant/static/src/img/snippet_img/vision-mission-values.png"/>
+                    <p class="p1">" Establish continuous holistic <br/>education and harmonious <br/>inter-relationship<br/>among students, <br/>teachers and parents,<br/>imbibing high ideals "</p>
+								</div>
+                <div class="fea1 text-center">
+                    <img class="cl1" src="/theme_variant/static/src/img/snippet_img/vision-mission-values(1).png"/>
+                    <p class="p1">" Make education more<br/>relevant, effective and<br/>interesting through excellent<br/>innovative quality teaching,<br/>enriching aesthetic sense and<br/>moral values to meet the<br/>challenges of the society. "</p>
+                </div>
+                <div class="fea2 text-center">
+                    <img class="cl1" src="/theme_variant/static/src/img/snippet_img/vision-mission-values(2).png"/>
+                    <p class="p1">" Make education more<br/>relevant, effective and<br/>interesting through excellent<br/>innovative quality teaching,<br/>enriching aesthetic sense and<br/>moral values to meet the<br/>challenges of the society. "</p>
+                </div>
+            </div>
+				</div>
+				<div class="container1" style="width: 220; height: 685;">
+					
+								<div class="content">
+     							 <div><div class="my-scroll view view-mt-events view-id-mt_events view-display-id-block_2">
+											<div class="view-content">
+												<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="00Z" class="datetime">Oct 28</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/157" hreflang="en">Lakshna 2017</a>
+														</div>
+														<div class="views-field views-field-body">
+															<p><span><span>The 32<sup>nd</sup> Lakshna Inter School cultural competitions and 24<sup>th</sup></span></span></p>
+														</div>
+													</div>
+  											</div>
+    										<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="53Z" class="datetime">Oct 10</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/160" hreflang="en">Diwali</a>
+														</div>
+														<div class="views-field views-field-body">
+														</div>
+													</div>
+												</div>
+    										<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="19Z" class="datetime">Sep 21</time>
+														</div>
+														<div class="views-field views-field-title">
+																<a href="/index.php/node/165" hreflang="en">Navarathri</a>
+														</div>
+														<div class="views-field views-field-body">
+														</div>
+													</div>
+  											</div>
+    										<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="36Z" class="datetime">Aug 26</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/166" hreflang="en">Vinayagar Chathurthi</a>
+														</div>
+														<div class="views-field views-field-body">
+														</div>
+													</div>
+  											</div>
+    										<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="11Z" class="datetime">Aug 24</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/158" hreflang="en">Sports Day</a>
+														</div>
+														<div class="views-field views-field-body">
+															<p><span><span>The 42<sup>nd</sup> Annual Sports Day was conducted in the afternoon on 24/8/2017. Mr.V.Muthu Kumar B.…</span></span></p>
+														</div>
+													</div>
+  											</div>
+   											<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="12Z" class="datetime">Aug 24</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/156" hreflang="en">Fun and Frolic</a>
+														</div>
+														<div class="views-field views-field-body">
+															<p>Fun and Frolic Day was conducted in the forenoon session. Mr.K.Kannan M.M.S proprietor VKMT Bricks, Madurai and  Mrs.K.…</p>
+														</div>
+													</div>
+  											</div>
+    										<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="14Z" class="datetime">Aug 15</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/161" hreflang="en">Independence Day</a>
+														</div>
+														<div class="views-field views-field-body">
+														</div>
+													</div>
+  											</div>
+    										<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="10Z" class="datetime">Aug 14</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/163" hreflang="en">Krishna Jeyanthi</a>
+														</div>
+														<div class="views-field views-field-body">
+														</div>
+													</div>
+  											</div>
+    										<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="14Z" class="datetime">Jul 29</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/162" hreflang="en">International Tiger's Day</a>
+														</div>
+														<div class="views-field views-field-body">
+														</div>
+													</div>
+  											</div>
+    										<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="v	iews-field views-field-field-mt-event-date">
+															<time datetime="13Z" class="datetime">Jun 21</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/159" hreflang="en">Yoga Day</a>
+														</div>
+														<div class="views-field views-field-body">
+														</div>
+													</div>
+ 											 	</div>
+    										<div class="views-row">
+    											<div class="view-event-wrapper">
+														<div class="views-field views-field-field-mt-event-date">
+															<time datetime="38Z" class="datetime">Jun 12</time>
+														</div>
+														<div class="views-field views-field-title">
+															<a href="/index.php/node/164" hreflang="en">LKG-First Day - 2017</a>
+														</div>
+														<div class="views-field views-field-body">
+														</div>
+													</div>
+  											</div>
+    									</div>
+  					          <div class="more-link"><a href="/index.php/events">View all</a></div>
+      								</div>
+										</div>
+    							</div>
+				</div>
+		</section>
+</template>
+<template id="place_into_bar3" inherit_id="website.snippets" name="Place into bar3">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.feature"/>
+		</xpath>
+</template>
+<template id="foot" name="Footer">
+	<section class="foot col-md-12 col-sm-12">
+		<footer id="footer" class="clearfix">
+			<div class="row">
+				<div class="container foo col-md-12 col-sm-12" style="float: left;">
+					<h2 class="title">Description</h2>
+					<div class="desp">
+						<p>Virudhunagar T.S.M. Manickam Nadar–Janaki Ammal Higher Secondary School is situated in the heart of the city, on the New Ramnad Road, on a sprawling 5 acre campus in a serene atmosphere. In short it is known as V.M.J.Hr.Sec.School. The landmark is Mariamman Theppakulam.</p>
+					</div>
+				</div>
+				<div class="container foo1 col-md-12 col-sm-12" style="float: right;">
+					<h2> Address</h2>
+					<p>100, New Ramnad Road,<br/>Madurai - 625009<br/>Phone: +91 452 2311748, +91 452 2311874<br/>E-Mail: office@vmjschool.org</p>
+				</div>
+			</div>
+		</footer>
+	</section>
+</template>
+<template id="place_into_bar4" inherit_id="website.snippets" name="Place into bar4">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.foot"/>
+		</xpath>
+</template>
+<template id="sub_foot" name="Subfoot">
+	<section class="sub">
+		<footer id="foot" class="clearfix">
+			<div class="container foos col-sm-12 col-md-6 col-lg-6">
+				<p>Copyright © vmjschool 2017. All rights Reserved.</p>
+			</div>
+			<div class="container menus col-xs-12 col-md-6 col-lg-6">
+				<ul class="clearfix menu">
+					<li class="menu_item">
+						<a href="about.xml">About</a>
+					</li>
+					<li class="menu_item">
+						<a href="admin.xml">Administration</a>
+					</li>
+					<li class="menu_item">
+						<a href="contact.xml">Contact</a>
+					</li>
+					<li class="menu_item">
+						<a href="about.xml">Alumni Registration</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</section>
+</template>
+<template id="place_into_bar5" inherit_id="website.snippets" name="Place into bar5">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.sub_foot"/>
+		</xpath>
+</template>
+<template id="image_off" name="Official Images">
+    <section class="img_off">
+    		<div class="cont1"  style="width: 1284px; height: 175px;">
+            <div class="row">
+								<div class="img_foot">
+									<div class="text-center">
+										<table style="width: 100%">
+											<tr>
+												<td class="img_row" style="width: 285px; height: 132px">
+                  	  		<img class="cla1" src="/theme_variant/static/src/img/Foot/acc21.png" width="150px" height="130px"/>
+                  	  	</td>
+                  	  	<td class="img_row" style="width: 285px; height: 130px">
+                    			<img class="cla2" src="/theme_variant/static/src/img/Foot/acc22.png"  width="150px" height="130px"/>
+                    		</td>
+                    		<td class="img_row" style="width: 285px; height: 130px">
+                  	  		<img class="cla3" src="/theme_variant/static/src/img/Foot/acc23.png"  width="150px" height="130px"/>
+                  	  	</td>
+                  			<td class="img_row" style="width: 285px; height: 130px">
+                  	  		<img class="cla4" src="/theme_variant/static/src/img/Foot/acc24.png"  width="150px" height="130px"/>
+                  	  	</td>
+                  		</tr>
+                  	</table>
+									</div>
+								</div>
+						</div>
+				</div>
+		</section>
+</template>
+<template id="place_into_bar6" inherit_id="website.snippets" name="Place into bar6">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.image_off"/>
+		</xpath>
+</template>
+<template id="head" name="Header">
+		<section class="header">	
+				<div class="container cont2"> 
+					<div class="head-top">
+							<div class="row r2 col-md-8">
+								<div class="head-top-area">
+									<div class="head-super">
+											<ul class="menu-head">
+												<li class="menu-list-head">
+														<a href="about.xml">About</a>
+												</li>
+												<li class="menu-list-head">
+														<a href="admin.xml" class="menu-head-parent">Administration</a>
+														<ul class="hide" style="float: none; width: 12em;">
+															<li class="hide-menu-list">
+																<a href="school-leadership.xml">School Leaderships</a>
+															</li>
+															<li class="hide-menu-list">
+																<a href="office-bearers.xml">Office Beareres</a>
+															</li>
+															<li class="hide-menu-list">
+																<a href="board-of-trustees.xml">Board Of Trustees</a>
+															</li>
+														</ul>
+												</li>
+												<li class="menu-list-head">
+														<a href="contact.html">Contact</a>
+												</li>
+												<li class="menu-list-head">
+														<a href="alumni.html">Alumni Registration</a>
+												</li>
+											</ul>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+				<div class="search-container">
+					<div class="form-item">
+						<form action="/actionpage.xml">
+								<input type="text" placeholder="Enter terms then hit Search..." style="font-family: 'Lato',Helvetica Neue,Arial,Sans-serif; font-size: 12px;"/> 
+								<button type="submit"><i class="fa fa-search"></i></button>
+						</form> 	
+					</div>			
+				</div>
+		</section>
+</template>
+<template id="place_into_bar7" inherit_id="website.snippets" name="Place into bar7">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.head"/>
+		</xpath>
+</template>
+<template id="logo" name="Logo">
+	<section class="header-enter">
+		<header id="head" class="head_one">
+			<div class="conti">
+				<div class="row">
+					<div class="head-in-left">
+						<div class="region-head">
+							<div class="block-scholar">
+								<div class="logo">
+									<a href="carousel.xml">
+										<img src="/theme_variant/static/src/img/logo.png"/>
+									</a>
+								</div>
+								<div class="site_name">
+									<a href="carousel.xml">VMJ School</a>
+								</div>
+								<div class="slogan">Knowledge is Treasure</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	</section>
+</template>
+<template id="place_into_bar8" inherit_id="website.snippets" name="Place into bar8">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.logo"/>
+		</xpath>
+</template>
+<template id="sign-in" name="sign">
+		<section class="alumni col-md-12 col-sm-12 col-xs-12">
+			<div class="form">
+				<div class="head">
+					<h3>Alumni Entry Form</h3>
+				</div>
+				<form class="form-alumni" method="post">
+					<table border="0" width="100%" class="table-sign">
+						<tbody>
+							<tr>
+								<th colspan="3" style="color: #ffffff;">Identify Yourself</th>
+							</tr>
+							<tr>
+								<td width="21%">
+									<label for="txtalumniname">Alumni Name (Full) *</label>
+								</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtalumniname" id="txtalumniname" size="40"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Date Of Birth [DD/MM/YY] *</td>
+								<td width="2%" align="center" valign="top">
+									<b>:</b>
+								</td>
+								<td width="77%" valign="top">
+									<input type="text" name="txtdob" size="10" maxlength="10"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Examination</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<select name="cmbboard" id="cmbboard">
+										<option value="ICSE">ICSE</option>
+										<option value="ISC">ISC</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Year of Passing ICSE / ISC</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtyop" id="txtyop" size="8" onkeypress="return number(event)" maxlength="4"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">My Teachers</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtteacher1" id="txtteacher1" size="20"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%"></td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtteacher2" id="txtteacher2" size="20"/>
+								</td>
+							</tr>
+							<tr>
+								<th colspan="3" style="color: #ffffff;">Contact Details</th>
+							</tr>
+							<tr>
+								<td width="21%">City *</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtcity" id="txtcity" size="30"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">State *</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtstate" id="txtstate" size="30"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Country *</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtcountry" id="txtcountry" size="30"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Mobile No.</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtmob" id="txtmob" onkeypress="return number(event)"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">
+									<label for="txtemail">Email</label>
+								</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="email" name="txtemailid" id="txtemailid" size="30"/>
+								</td>
+							</tr>
+							<tr>
+								<th colspan="3" style="color:#ffffff;">Qualification Details</th>
+							</tr>
+							<tr>
+								<td width="21%">Qualification/Profession Category</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<select name="qualcat" id="qualcat">
+										<option selected="selected">----Select Present Status----</option>
+										<option value="Medicine Field">Medicine Field</option>
+										<option value="IT Professional">IT Professional</option>
+										<option value="Engineer">Engineer</option>
+										<option value="Banking Sector">Banking Sector</option>
+										<option value="Law">Law</option>
+										<option value="Education">Education</option>
+										<option value="Research">Research</option>
+										<option value="Others">Others</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Highest Qualification held *</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txthigh" id="txthigh" size="40"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Specialization / Major</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtmajor" id="txtmajor" size="40"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Your special skill (In any area of interest)</td>
+								<td width="2%" align="center" valign="top">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtskill" id="txtskill" valign="top" size="40"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Institute / College / University *</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="text" name="txtclge" id="txtclge" size="30"/>
+								</td>
+							</tr>
+							<tr>
+								<th colspan="3" style="color:#ffffff;">Employment Details</th>
+							</tr>
+							<tr>
+								<td width="21%">Present Status</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<select name="empstatus" id="empstatus" onchange="enableemploymentdetails(this.value)">
+										<option selected="selected">----Select Present Status----</option>
+										<option value="Job">Job</option>
+										<option value="Self Employed">Self Employed</option>
+										<option value="Business">Business</option>
+										<option value="Student">Student</option>
+										<option value="House Maker">House Maker</option>
+										<option value="Others">Others</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="3" align="left">
+									<table border="0" id="row_job" style="display: none;">
+										<tbody>
+											<tr>
+												<td width="21%" style="width: 760px;">Current Organisation *</td>
+												<td width="2%" align="center">
+													<b>:</b>
+												</td>
+												<td width="77%">
+													<input type="text" name="txtorg" id="txtorg" size="40"/>
+												</td>
+											</tr>
+											<tr>
+												<td width="21%">Current Designation *</td>
+												<td width="2%" align="center">
+													<b>:</b>
+												</td>
+												<td width="77%">
+													<input type="text" name="txtdes" id="txtdes" size="40"/>
+												</td>
+											</tr>
+											<tr>
+												<td width="21%">Current Organisation's Website /Your Website</td>
+												<td width="2%" align="center" valign="top">
+													<b>:</b>
+												</td>
+												<td width="77%" valign="top">
+													<input type="text" name="txtweb" id="txtweb" size="40"/>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="3" align="left">
+									<table border="0" id="row_others" style="display: none;">
+										<tbody>
+											<tr>
+												<td width="21%" style="width: 760px;">Details</td>
+												<td width="2%" align="center">
+													<b>:</b>
+												</td>
+												<td width="77%">
+													<input type="text" name="txtothers" id="txtothers" size="40"/>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<th colspan="3" style="color: #ffffff;">Details About You</th>
+							</tr>
+							<tr>
+								<td width="21%">About me</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<textarea name="txtabtme" id="txtabtme" rows="5" cols="50"></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%">Upload Photo</td>
+								<td width="2%" align="center">
+									<b>:</b>
+								</td>
+								<td width="77%">
+									<input type="file" name="filephoto" id="filephoto"/>
+								</td>
+							</tr>
+							<tr>
+								<td width="21%"></td>
+								<td width="2%" align="center">
+									<b></b>
+								</td>
+								<td width="77%">
+									<input type="button" value="Submit"/>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+			</div>
+		</section>
+	</template>
+	<template id="place_into_bar8" inherit_id="website.snippets" name="Place into bar8">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.sign-in"/>
+		</xpath>
+</template>
+<template id="tab1" name="Extra">
+	<section class="s_tabs">
+		<div class="container col-md-12 col-sm-12">
+			<div class="row s_col_no_bgcolor">
+				<div class="card bg-white">
+					<div class="heading">
+						<h2>Extracurricular Activities</h2>
+					</div>
+					<div class="chead card-header">
+						<ul class="nav nav-tabs card-header-tabs" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" id="nav_tabs_link_1" data-toggle="tab" aria-controls="nav_tabs_content_1" aria-selected="true">Dance</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="nav_tabs_link_2" data-toggle="tab" aria-controls="nav_tabs_content_2" aria-selected="false">Music</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="nav_tabs_link_3" data-toggle="tab" aria-controls="nav_tabs_content_3" aria-selected="false">Yoga</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="nav_tabs_link_4" data-toggle="tab" aria-controls="nav_tabs_content_4" aria-selected="false">Band</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="nav_tabs_link_5" data-toggle="tab" aria-controls="nav_tabs_content_5" aria-selected="false">Karate</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="nav_tabs_link_6" data-toggle="tab" aria-controls="nav_tabs_content_6" aria-selected="false">Art and Craft</a>
+							</li>
+						</ul>
+					</div>
+					<div class="card-para card-body tab-content">
+						<div class="tab-pane fade show active" id="nav_tabs_content_1" role="tabpanel" aria-labelledby="nav_tabs_link_1">
+							<img src="/theme_variant/static/src/img/extra/IMG_5984.jpeg"/><br/>
+								<p>Bharatanatyam is a reworked dance-form from the traditional “sadir” known for its grace, purity, tenderness, and sculpturesque poses. Today, it is one of the most popular and widely performed dance styles and is practiced by male and female dancers all over the world.</p>
+						</div>
+						<div class="tab-pane fade" id="nav_tabs_content_2" role="tabpanel" aria-labelledby="nav_tabs_link_2">
+							<p>Music is all around us, in nature, in our daily lives. From the singing of the birds and the croaking of frogs to the tapping of feet and jumping of knees — even when no music is actually playing. Music is natural to people and creativity is among the ways in which we are “made in the image of God.” Music is one of the first things to go when a school system has to cut corners. Sure, it seems like an “extra,” but learning music helps children in ways that may not be seen or understood generally.</p>
+							<p>There are many proven benefits of teaching music to children from an early age.We teach music to children from standard I to IX .Music affects the part of the brain associated with logic and reasoning. Music can actually help the brain to develop in these areas. Music promotes good habits, helps children learn language, and helps them understand their world better.</p>
+							<p>Music is an Universal Language. We teach music in an easy way to children. II and III standard students are taught Slokas, Bhajan’s and Patriotic songs.IV to VII standard students are taught Bhajan’s, Patriotic songs, Devotional songs and Keertanai.</p>
+						</div>
+						<div class="tab-pane fade" id="nav_tabs_content_3" role="tabpanel" aria-labelledby="nav_tabs_link_3">
+							<img src="/theme_variant/static/src/img/extra/yog2.jpeg"/>
+							<img src="/theme_variant/static/src/img/extra/yog1.jpeg"/><br/>
+							<p>“Yoga is not about self improvement its about self acceptance”</p>
+							<p>Yoga is seen as a process of inner journey (or) ascent of consciousness. The heart of our school yoga system is to integrate all elements of ancient knowledge of yoga to make discipline, uniting the body, mind and soul.</p>
+						</div>
+						<div class="tab-pane fade" id="nav_tabs_content_4" role="tabpanel" aria-labelledby="nav_tabs_link_4">
+							<img src="/theme_variant/static/src/img/extra/band1.jpeg"/>
+							<img src="/theme_variant/static/src/img/extra/band2.jpeg"/><br/>
+							<p>School band consists of wind instruments like flute, trumpet and percussion instruments like kettle drum, base drum.</p>
+						</div>
+						<div class="tab-pane fade" id="nav_tabs_content_5" role="tabpanel" aria-labelledby="nav_tabs_link_5">
+							<img src="/theme_variant/static/src/img/extra/karate.jpg"/><br/>
+							<p>It is practically impossible to learn karate without the aid of a karate <strong>master</strong>Some students take up karate as a form of exercise or a way to relieve stress. Others only want to learn a few moves to aid in self-defense. We teach Karate in an excellent way to build self-confidence. Whatever their original interest, many karatekas eventually fall in love with the practice: Karate becomes a way of life.The goal of karate is not necessarily to progress through the different kyus; if a karateka gets what he or she needs from the experience, then the training is a success. But most karatekas end up advancing to higher levels if they come to class regularly. Students may come to class once every week.</p>
+						</div>
+						<div class="tab-pane fade" id="nav_tabs_content_6" role="tabpanel" aria-labelledby="nav_tabs_link_6">
+							<img src="/theme_variant/static/src/img/extra/art1.jpg"/>
+							<img src="/theme_variant/static/src/img/extra/art3.jpg"/><br/>
+							<p><strong>Art education</strong> is the area of learning that is based upon the visual, tangible arts—drawing, painting, sculpture, and design in jewelry, pottery, weaving, fabrics, etc. and design applied to more practical fields such as commercial graphics and home furnishings. Craft class encompasses all the visual and performing arts delivered in a standards-based, sequential as part of the core curriculum. Its core is the study of inseparable artistic and aesthetic experience and learning.</p>
+							<p>Studies have proved that Art &amp; Craft, like drama, music and dance, play an important role in the development of the child’s personality. Consequently, it has become an integral part of education. In addition to the development of a balanced personality, in itself, the act of drawing is a source of joy to the child. When children draw and make things with their own hands not only do they learn, but also derive the joy of satisfaction in these activities. In addition they develop an aesthetic sense.</p>
+							<p>In the modern age of education system, Art has played a vital role in studying and understanding other subjects. Art has been developed the natural aspect and the comprehension level of the children class-wise. Even the most difficult subject has been explained in a very easy manner, with the help of latest drawing techniques.</p>
+							<p>Basic shapes like squares, circles, rectangles have been used to form parts of known objects and geometrical designs.</p>
+							<p><u>Types of Drawing being taught</u></p>
+							<ul>
+								<li>Nature Drawing</li>
+								<li>Human Drawing</li>
+								<li>Object Drawing</li>
+								<li>Imagination Drawing</li>
+							</ul>
+							<p><u>Medium of Coloring</u></p>
+							<ul>
+								<li>Crayon Coloring</li>
+								<li>Color Pencil Coloring</li>
+							</ul>
+							<p><u>Medium of Paintings</u></p>
+							<ul>
+								<li>Water Color Painting</li>
+								<li>Poster Color Painting</li>
+								<li>Fabric Color Painting</li>
+								<li>Oil Color Painting</li>
+								<li>Acrylic Color Painting</li>
+							</ul>
+							<p>From I STD to III STD students learn pencil drawing, then coloring the surface evenly from left to right. Through this they learn hand coordination and to define colors surface wise. Side by side they also develop their own imagination.</p>
+							<p>From IV STD to VIII STD they develop their painting knowledge, using their previous coloring sense. The students get trained to apply their imagination and creativity in art and craft. It also helps them prepare their project work on any given subject.</p>
+							<p>The art and craft classes definitely help them improve their artistic skills and come out with flying colors in any competition on art.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</template>
+<template id="place_into_bar9" inherit_id="website.snippets" name="Place into bar9">
+  	<xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+  		<t t-snippet="theme_variant.tab1"/>
+		</xpath>
+</template>
+</odoo>
