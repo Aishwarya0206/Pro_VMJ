@@ -17,7 +17,7 @@
 					<field name="yop"/>
 					<field name="my_teachers"/>
 			</field>  
-			<field name="category_id" position="after">
+			<field name="type" position="after">
 				<field name="qual"/>
 				<field name="hqh"/>
 				<field name="som"/>
